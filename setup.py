@@ -44,7 +44,7 @@ deps = ['webtest',
         'markdown',  # rendering stuff
         'ansi',
         'Pygments>=2.0.2',
-        'pygments-markdown-lexer>=0.1.0.dev39',  # sytax coloring to debug md
+        'git+ssh://git@github.com/cotdsa/pygments-markdown-lexer.git', # sytax coloring to debug md
         ]
 
 if PY2:
